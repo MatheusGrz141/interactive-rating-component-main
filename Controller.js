@@ -7,7 +7,7 @@ class Controller{
     
     bind(){
         
-        document.querySelectorAll(".optiion").forEach(EditIndex => {
+        document.querySelectorAll(".option").forEach(EditIndex => {
             EditIndex.addEventListener('click' ,(e) => {
                 this.EditIndex(e.target)
 
